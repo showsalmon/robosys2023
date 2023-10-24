@@ -12,3 +12,5 @@ for line in sys.stdin:
         ans += float(line)
 
 print(ans)
+
+
