@@ -1,5 +1,15 @@
-# robosys202x
-ロボットシステム学2023
+# robosys2023
+ロボットシステム学の練習リポジトリ
+
+# plusコマンド
+[![test](https://github.com/showsalmon/robosys202x/actions/workflows/test.yml/badge.svg)](https://github.com/showsalmon/robosys202x/actions/workflows/test.yml)
+
+## 必要なソフトウェア
+* Python
+  * テスト済み: 3.7～3.10
+
+## テスト環境
+* Ubuntu
 
 
 
