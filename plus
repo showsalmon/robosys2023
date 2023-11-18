@@ -4,12 +4,16 @@
 
 import sys
 
-sig1 = 0
-for line in sys.stdin:
+def check(s):
     try:
-        sig1 += int(line)
+        return int(s)
     except:
-        sig1 += float(line)
+        return float(s)
+
+sig1 = 0
+
+for line in sys.stdin:
+    sig1 += check(line)
 
 print(sig1)
 
