@@ -11,7 +11,7 @@ res=0
 
 ### I/O TEST ###
 out=$(seq 5 | ./plus)
-[ "${out}" = '15 55 225' ] || ng ${LINENO}
+[ "${out}" = 'Σk = 15 Σk^2 = 55 Σk^3 = 225' ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
 exit $res
