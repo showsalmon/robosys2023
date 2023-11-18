@@ -4,13 +4,13 @@
 
 import sys
 
-ans = 0
+sig1 = 0
 for line in sys.stdin:
     try:
-        ans += int(line)
+        sig1 += int(line)
     except:
-        ans += float(line)
+        sig1 += float(line)
 
-print(ans)
+print(sig1)
 
 
