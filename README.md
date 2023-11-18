@@ -5,7 +5,7 @@
 # plusコマンド
 [![test](https://github.com/showsalmon/robosys202x/actions/workflows/test.yml/badge.svg)](https://github.com/showsalmon/robosys202x/actions/workflows/test.yml)
 
-##インストール及び使い方  
+## インストール及び使い方  
 $ git clone https://github.com/showsalmon/robosys2023  
 $ cd robosys2023  
 $ seq 5 | ./plus  
