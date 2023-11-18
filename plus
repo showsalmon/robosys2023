@@ -11,10 +11,13 @@ def check(s):
         return float(s)
 
 sig1 = 0
+sig2 = 0
 
 for line in sys.stdin:
     sig1 += check(line)
+    sig2 += pow(check(line), 2)
 
 print(sig1)
+print(sig2)
 
 
