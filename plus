@@ -14,11 +14,15 @@ sig1 = 0
 sig2 = 0
 sig3 = 0
 
+fac  = 1
+
 for line in sys.stdin:
     sig1 += check(line)
     sig2 += pow(check(line), 2)
     sig3 += pow(check(line), 3)
 
-print("Σk =",sig1, "Σk^2 =",sig2, "Σk^3 =",sig3)
+    fac  *= check(line)
+
+print("Σk =",sig1,"|", "Σk^2 =",sig2,"|", "Σk^3 =",sig3,"|", check(line),"! =", fac)
 
 
