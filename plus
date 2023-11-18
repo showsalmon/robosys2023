@@ -12,11 +12,13 @@ def check(s):
 
 sig1 = 0
 sig2 = 0
+sig3 = 0
 
 for line in sys.stdin:
     sig1 += check(line)
     sig2 += pow(check(line), 2)
+    sig3 += pow(check(line), 3)
 
-print(sig1, sig2)
+print(sig1, sig2, sig3)
 
 
