@@ -3,13 +3,15 @@
 
 # plusコマンド
 [![test](https://github.com/showsalmon/robosys202x/actions/workflows/test.yml/badge.svg)](https://github.com/showsalmon/robosys202x/actions/workflows/test.yml)   
-* このソフトは、標準入力から読み込んだ数字kまでをΣk, Σk^2, Σk^3, k!の計算を行います.
+* このソフトは、標準入力から読み込んだ数字kまでをΣk, Σk^2, Σk^3, k!にそれぞれ代入して、計算を行います.
 
 ## インストール及び使い方  
 ```bash   
 git clone https://github.com/showsalmon/robosys2023  
 cd robosys2023  
-seq 5 | ./plus  
+seq 5 | ./plus
+
+Σk = 15 | Σk^2 = 55 | Σk^3 = 225 | 5 ! = 120  
 ```  
 
 ## 必要なソフトウェア
