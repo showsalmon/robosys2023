@@ -7,9 +7,9 @@
 
 ## インストール及び使い方  
 ```bash   
-git clone https://github.com/showsalmon/robosys2023  
-cd robosys2023  
-seq 5 | ./plus
+$ git clone https://github.com/showsalmon/robosys2023  
+$ cd robosys2023  
+$ seq 5 | ./plus
 ```  
 
 ## 出力結果   
