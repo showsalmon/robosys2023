@@ -9,7 +9,7 @@
 ```bash   
 $ git clone https://github.com/showsalmon/robosys2023  
 $ cd robosys2023  
-$ seq 5 | ./plus
+$ seq 5 | ./plus     #seqの後に任意の数字を入力する  
 ```  
 
 ## 出力結果   
