@@ -10,9 +10,12 @@
 git clone https://github.com/showsalmon/robosys2023  
 cd robosys2023  
 seq 5 | ./plus
-
-Σk = 15 | Σk^2 = 55 | Σk^3 = 225 | 5 ! = 120  
 ```  
+
+## 出力結果   
+```bash
+Σk = 15 | Σk^2 = 55 | Σk^3 = 225 | 5 ! = 120   
+```
 
 ## 必要なソフトウェア
 * Python
